@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+}
+
+.header-background{
+    background-color: #1f2937;
+    height: 700px;
+}
+
+.information-background{
+    height: 400px;
+}
+
+.quote-background{
+    background-color: #E5E7EB;
+    height: 400px;
+}
+
+.bottom-signup-background{
+    height: 300px;
+}
+
+.footer-background{
+    background-color: #1f2937;
+    height: 80px;
+}
+
+.header,
+.hero,
+.information,
+.quote,
+.bottom-signup,
+.footer{
+    width: 400px;
+    display: flex;
+}
