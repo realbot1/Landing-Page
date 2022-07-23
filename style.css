@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400;700&display=swap');
 
 body{
     margin: 0;
@@ -114,6 +115,57 @@ a{
     max-width: 100%;
 }
 
+.information-background{
+    margin: 30px;
+}
+
+.header-information{
+    font-size: 40px;
+    font-weight: bold;
+    color: #1f2937;
+    margin: 30px;
+}
+
+.content-info{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.info-img{
+    width: 300px;
+    height: 300px;
+    border: 5px solid #3882f6;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.info-img img{
+    width: 300px;
+}
+
+.info-subtext{
+    width: 300px;
+}
+
+span{
+    font-family: "Markazi Text", serif;
+    font-size: 50px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+p{
+    font-size: 18px;
+}
 
 
 *{
