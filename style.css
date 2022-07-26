@@ -10,7 +10,7 @@ body{
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
-    min-width: 475px;
+    min-width: 720px;
 }
 
 .content{
@@ -183,7 +183,7 @@ span{
 }
 
 .quote{
-    margin: 50px 260px;
+    margin: 50px 200px;
 }
 
 .quote p{
@@ -212,7 +212,7 @@ span{
 }
 
 #sign-up #contact{
-    padding: 20px 90px;
+    padding: 20px 50px;
 }
 
 
@@ -226,13 +226,10 @@ span{
     border: 1px solid white ;
 }
 
-/*Footer css*/
-
-.
-
 /*For checking*/
+
 *{
-    border: 1x solid red;
+    border: px solid red;
 }
 
 .footer-background{
