@@ -191,6 +191,7 @@ span{
     font-style: italic;
     color: #1f2937;
 }
+
 .sign{
     font-weight: bold;
     font-size: 30px;
@@ -199,8 +200,49 @@ span{
     display: flex;
 }
 
+/*bottom sign-up*/
+.bottom-signup{
+    margin: 50px 30px;
+    padding: 10px 120px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#sign-up #contact{
+    padding: 20px 90px;
+}
+
+
+.signup-header{
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+#bottom{
+    border: 1px solid white ;
+}
+
+/*Footer css*/
+
+.
 
 /*For checking*/
 *{
-    border: px solid red;
+    border: 1x solid red;
+}
+
+.footer-background{
+    width: 100%;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    color: #e5e7eb;
+    font-size: 18px;
+    padding: 30px 0;
+    font-weight: bold;
 }
