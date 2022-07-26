@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400;700&display=swap');
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     margin: 0;
     font-family: 'Roboto', sans-serif;
@@ -30,7 +34,11 @@ body{
 .header .header-logo-text{
     font-size: 45px;
     color: #F9FAF8;
-    margin: 20px 30px;
+    margin: 10px 30px;
+}
+
+.header-logo-text img{
+    width: 200px;
 }
 
 ul{
@@ -115,6 +123,7 @@ a{
     max-width: 100%;
 }
 
+/*Information CSS*/
 .information-background{
     margin: 30px;
 }
@@ -123,7 +132,7 @@ a{
     font-size: 40px;
     font-weight: bold;
     color: #1f2937;
-    margin: 30px;
+    margin: 20px 30px;
 }
 
 .content-info{
@@ -163,11 +172,33 @@ span{
     font-style: italic;
 }
 
-p{
+.info-subtext p{
     font-size: 18px;
 }
 
+/*quote css*/
+.quote-background{
+    background-color: #E5E7EB;
+    width: 100%;
+}
+
+.quote{
+    margin: 50px 260px;
+}
+
+.quote p{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+.sign{
+    font-weight: bold;
+    font-size: 30px;
+    font-style: normal;
+    justify-content: right;
+    display: flex;
+}
 
 *{
-    border: px solid red;
+    border: 1px solid red;
 }
