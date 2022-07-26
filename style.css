@@ -199,6 +199,8 @@ span{
     display: flex;
 }
 
+
+/*For checking*/
 *{
-    border: 1px solid red;
+    border: px solid red;
 }
